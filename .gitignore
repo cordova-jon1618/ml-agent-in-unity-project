@@ -14,11 +14,11 @@
 
 # Miscellaneous
 [Aa]ssets/ML-Agents/Timers/
-/[Aa]ssets/ML-Agents/Timers/
+**/[Aa]ssets/ML-Agents/Timers/
 # User's project-specific settings implemented using Settings Manager
 [Pp]rojectSettings/Packages/
-/[Pp]rojectSettings/Packages/
-
+**/[Pp]rojectSettings/Packages/
+**/ProjectSettings/Packages/
 
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
@@ -70,6 +70,7 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+
 
 
 
