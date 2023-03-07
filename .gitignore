@@ -69,3 +69,5 @@ sysinfo.txt
 crashlytics-build.properties
 
 ml-agent-project/UserSettings/EditorUserSettings.asset
+ml-agent-project/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+ml-agent-project/UserSettings/EditorUserSettings.asset
