@@ -10,12 +10,15 @@
 [Ll]ogs/
 [Mm]emoryCaptures/
 [Uu]serSettings/
-[Uu]serSettings/
+
 
 # Miscellaneous
 [Aa]ssets/ML-Agents/Timers/
+/[Aa]ssets/ML-Agents/Timers/
 # User's project-specific settings implemented using Settings Manager
-ProjectSettings/Packages/
+[Pp]rojectSettings/Packages/
+/[Pp]rojectSettings/Packages/
+
 
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
