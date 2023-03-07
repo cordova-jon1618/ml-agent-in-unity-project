@@ -10,12 +10,12 @@
 [Ll]ogs/
 [Mm]emoryCaptures/
 [Uu]serSettings/
-/[Uu]serSettings/
+[Uu]serSettings/
 
-# Misc
-/[Aa]ssets/ML-Agents/Timers
-[Aa]ssets/ML-Agents/Timers
-
+# Miscellaneous
+[Aa]ssets/ML-Agents/Timers/
+# User's project-specific settings implemented using Settings Manager
+ProjectSettings/Packages/
 
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
@@ -68,6 +68,5 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-ml-agent-project/UserSettings/EditorUserSettings.asset
-ml-agent-project/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
-ml-agent-project/UserSettings/EditorUserSettings.asset
+
+
