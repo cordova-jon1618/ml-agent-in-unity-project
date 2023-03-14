@@ -28,21 +28,21 @@ public class selection_raycast_script : MonoBehaviour
             {
                 //Debug.Log(hitInfo.transform.name);
 
-                if (hitInfo.transform.name.Equals("Cube"))
+                if (hitInfo.transform.name.Equals("MyCube"))
                 {
                     Debug.Log(hitInfo.transform.name + " is selected!");
                     cube_targetObject.SendMessage("OnObjectClicked", gameObject, SendMessageOptions.RequireReceiver);
                     sphere_targetObject.SendMessage("OnObjectNotClicked", gameObject, SendMessageOptions.RequireReceiver);
                     capsule_targetObject.SendMessage("OnObjectNotClicked", gameObject, SendMessageOptions.RequireReceiver);
                 }
-                else if (hitInfo.transform.name.Equals("Sphere"))
+                else if (hitInfo.transform.name.Equals("MySphere"))
                 {
                     Debug.Log(hitInfo.transform.name + " is selected!");
                     sphere_targetObject.SendMessage("OnObjectClicked", gameObject, SendMessageOptions.RequireReceiver);
                     cube_targetObject.SendMessage("OnObjectNotClicked", gameObject, SendMessageOptions.RequireReceiver);
                     capsule_targetObject.SendMessage("OnObjectNotClicked", gameObject, SendMessageOptions.RequireReceiver);
                 }
-                else if (hitInfo.transform.name.Equals("Capsule"))
+                else if (hitInfo.transform.name.Equals("MyCapsule"))
                 {
                     Debug.Log(hitInfo.transform.name + " is selected!");
                     capsule_targetObject.SendMessage("OnObjectClicked", gameObject, SendMessageOptions.RequireReceiver);

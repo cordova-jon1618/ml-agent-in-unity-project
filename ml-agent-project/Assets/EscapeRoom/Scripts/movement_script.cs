@@ -6,14 +6,18 @@ using UnityEngine;
 public class movement_script : MonoBehaviour
 {
 
-    public int direction = 15;
-    public float rotationSpeed = 250f;
     private Camera cam;
     private bool isClicked = false;
+
+    private Rigidbody rb;
+    public float speed = 5f;
+    // The direction determines where the agent is facing
+    private int direction = 1;
 
     void Start()
     {
         cam = Camera.main;
+        rb = GetComponent<Rigidbody>();
     }
 
 
@@ -39,24 +43,10 @@ public class movement_script : MonoBehaviour
             float horizontalInput = Input.GetAxis("Horizontal");
             float verticalInput = Input.GetAxis("Vertical");
 
-            //Directional
-            if (Input.GetKey(KeyCode.RightArrow))
-            {
-                transform.Translate(transform.right * -direction * Time.deltaTime);
-            }
-            if (Input.GetKey(KeyCode.LeftArrow))
-            {
-                transform.Translate(transform.right * direction * Time.deltaTime);
-            }
-            if (Input.GetKey(KeyCode.UpArrow))
-            {
-                transform.Translate(transform.forward * direction * Time.deltaTime);
-            }
-            if (Input.GetKey(KeyCode.DownArrow))
-            {
-                transform.Translate(transform.forward * -direction * Time.deltaTime);
-            }
 
+            //Directional controls - moving the agent using the rigidbody's velocity to prevent walking through walls
+            Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
+            rb.velocity = 2f * direction * speed * movement;
 
             // Orientation for directional based on Camera viewpoint
             if (horizontalInput != 0 || verticalInput != 0)

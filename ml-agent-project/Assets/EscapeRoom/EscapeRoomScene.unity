@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -425,7 +425,7 @@ GameObject:
   - component: {fileID: 245915324}
   - component: {fileID: 245915325}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: MyCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -541,8 +541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4115f0ee9bcc7bf4390e6058f92c92dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  direction: 15
-  rotationSpeed: 250
+  speed: 5
 --- !u!1 &287664944
 GameObject:
   m_ObjectHideFlags: 0
@@ -1395,7 +1394,7 @@ GameObject:
   - component: {fileID: 878104266}
   - component: {fileID: 878104267}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: MyCapsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1512,8 +1511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4115f0ee9bcc7bf4390e6058f92c92dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  direction: 15
-  rotationSpeed: 250
+  speed: 5
 --- !u!1 &1008764661
 GameObject:
   m_ObjectHideFlags: 0
@@ -2979,7 +2977,7 @@ GameObject:
   - component: {fileID: 2144598766}
   - component: {fileID: 2144598765}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: MySphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3079,8 +3077,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4115f0ee9bcc7bf4390e6058f92c92dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  direction: 15
-  rotationSpeed: 250
+  speed: 5
 --- !u!54 &2144598766
 Rigidbody:
   m_ObjectHideFlags: 0
