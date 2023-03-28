@@ -18,7 +18,7 @@ public class Random_Object : MonoBehaviour
     void Start()
     {
         agentRb = GetComponent<Rigidbody>();
-        agentRb.transform.localPosition = new Vector3(Random.Range(-9f, +9f), 7, Random.Range(-9f, +9f));
+        agentRb.transform.localPosition = new Vector3(Random.Range(-7f, +7f), 7, Random.Range(-7f, +7f));
     }
 
 
