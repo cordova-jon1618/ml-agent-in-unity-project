@@ -29,17 +29,17 @@ public class door_script : MonoBehaviour
         if (collision.gameObject.layer == 6)
         {
             score_logic.addScore_1(1);
-            score_logic.restartPositions(winnerGameObject);
+            //score_logic.restartPositions(winnerGameObject);
         }
         else if (collision.gameObject.layer == 7)
         {
             score_logic.addScore_2(1);
-            score_logic.restartPositions(winnerGameObject);
+            //score_logic.restartPositions(winnerGameObject);
         }
         else if (collision.gameObject.layer == 8)
         {
             score_logic.addScore_3(1);
-            score_logic.restartPositions(winnerGameObject);
+            //score_logic.restartPositions(winnerGameObject);
         }
 
     }

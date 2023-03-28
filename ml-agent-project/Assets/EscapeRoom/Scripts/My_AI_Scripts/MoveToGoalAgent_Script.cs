@@ -10,18 +10,10 @@ public class MoveToGoalAgent_Script : Agent
 
 
 
-    //private Rigidbody rb;
-    //private float speed = 5f;
-    //private int direction = 1;
-    //private Camera cam;
-
-
-
     [SerializeField] private Transform targetTransform;
     [SerializeField] private Material winMaterial;
     [SerializeField] private Material loseMaterial;
     [SerializeField] private MeshRenderer floorMeshRender;
-
 
     public override void OnEpisodeBegin()
     {
@@ -54,33 +46,6 @@ public class MoveToGoalAgent_Script : Agent
 
         continuousActions[0] = Input.GetAxisRaw("Horizontal");
         continuousActions[1] = Input.GetAxisRaw("Vertical");
-
-        //Vector3 movement = new Vector3(continuousActions[0], 0f, continuousActions[1]);
-        //rb.velocity = 2f * direction * speed * movement;
-
-        /*
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
-
-        Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
-        rb.velocity = 2f * direction * speed * movement;
-
-        if (horizontalInput != 0 || verticalInput != 0)
-        {
-            Vector3 forward = cam.transform.forward;
-            forward.y = 0;
-            Vector3 right = cam.transform.right;
-            right.y = 0;
-            forward.Normalize();
-            right.Normalize();
-
-            Vector3 direction = (horizontalInput * right + verticalInput * forward).normalized;
-            if (direction.magnitude > 0.1f)
-            {
-                transform.rotation = Quaternion.LookRotation(-direction);
-            }
-        }
-        */
 
     }//end Heuristics
 

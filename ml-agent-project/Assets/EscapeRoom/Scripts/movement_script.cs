@@ -8,7 +8,6 @@ public class movement_script : MonoBehaviour
 
     private Camera cam;
     private bool isClicked = false;
-    public float rotationSpeed = 250f;
     private Rigidbody rb;
     public float speed = 5f;    
     // The direction determines where the agent is facing
