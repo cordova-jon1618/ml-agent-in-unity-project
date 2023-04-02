@@ -3319,7 +3319,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Lemon:'
+  m_Text: 'YellowBall:'
 --- !u!222 &1713437321
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3624,7 +3624,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Red Box:'
+  m_Text: 'RedBox:'
 --- !u!222 &1814859886
 CanvasRenderer:
   m_ObjectHideFlags: 0
