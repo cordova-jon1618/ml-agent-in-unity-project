@@ -564,7 +564,7 @@ MonoBehaviour:
   MaxStep: 1500
   targetTransform: {fileID: 1854108077}
   winMaterial: {fileID: 2100000, guid: 1c58f662beb99c24eb3b6d465aae6f84, type: 2}
-  loseMaterial: {fileID: 2100000, guid: e88d6887ccb33474b8b6059d10a86d17, type: 2}
+  loseMaterial: {fileID: 2100000, guid: fdc695bca0ce2204594a13e998c310ff, type: 2}
   floorMeshRender: {fileID: 696926417}
 --- !u!114 &245915328
 MonoBehaviour:
@@ -1957,7 +1957,7 @@ MonoBehaviour:
   MaxStep: 1500
   targetTransform: {fileID: 1854108077}
   winMaterial: {fileID: 2100000, guid: 1c58f662beb99c24eb3b6d465aae6f84, type: 2}
-  loseMaterial: {fileID: 2100000, guid: e88d6887ccb33474b8b6059d10a86d17, type: 2}
+  loseMaterial: {fileID: 2100000, guid: fdc695bca0ce2204594a13e998c310ff, type: 2}
   floorMeshRender: {fileID: 696926417}
 --- !u!114 &878104270
 MonoBehaviour:
@@ -4046,7 +4046,7 @@ MonoBehaviour:
   MaxStep: 1500
   targetTransform: {fileID: 1854108077}
   winMaterial: {fileID: 2100000, guid: 1c58f662beb99c24eb3b6d465aae6f84, type: 2}
-  loseMaterial: {fileID: 2100000, guid: e88d6887ccb33474b8b6059d10a86d17, type: 2}
+  loseMaterial: {fileID: 2100000, guid: fdc695bca0ce2204594a13e998c310ff, type: 2}
   floorMeshRender: {fileID: 696926417}
 --- !u!114 &2144598769
 MonoBehaviour:
