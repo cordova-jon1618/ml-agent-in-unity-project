@@ -40,12 +40,30 @@ public class MoveToGoalAgent_Script : Agent
 
     public override void Heuristic(in ActionBuffers actionsOut)
     {
-
+        Camera cam = Camera.main;
 
         ActionSegment<float> continuousActions = actionsOut.ContinuousActions;
 
         continuousActions[0] = Input.GetAxisRaw("Horizontal");
         continuousActions[1] = Input.GetAxisRaw("Vertical");
+
+
+        // Orientation for directional based on Camera viewpoint
+        if (continuousActions[0] != 0 || continuousActions[1] != 0)
+        {
+            Vector3 forward = cam.transform.forward;
+            forward.y = 0;
+            Vector3 right = cam.transform.right;
+            right.y = 0;
+            forward.Normalize();
+            right.Normalize();
+
+            Vector3 direction = (continuousActions[0] * right + continuousActions[1] * forward).normalized;
+            if (direction.magnitude > 0.1f)
+            {
+                transform.rotation = Quaternion.LookRotation(-direction);
+            }
+        }
 
     }//end Heuristics
 
