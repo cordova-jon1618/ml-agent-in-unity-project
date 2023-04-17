@@ -29,13 +29,38 @@ public class MoveToGoalAgent_Script : Agent
     }
     public override void OnActionReceived(ActionBuffers actions)
     {
-        // Debug.Log(actions.DiscreteActions[0]);
-        Debug.Log(actions.ContinuousActions[0]);
+
+        Camera cam = Camera.main;
+
+        //Debug.Log(actions.ContinuousActions[0]);
         float moveX = actions.ContinuousActions[0] * 5;
         float moveZ = actions.ContinuousActions[1] * 5;
 
         float moveSpeed = 5f;
         transform.localPosition += new Vector3(moveX, 0, moveZ) * Time.deltaTime * moveSpeed;
+
+        // Orientation for directional based on Camera viewpoint
+        if (actions.ContinuousActions[0] != 0 || actions.ContinuousActions[1] != 0)
+        {
+            Vector3 forward = cam.transform.forward;
+            forward.y = 0;
+            Vector3 right = cam.transform.right;
+            right.y = 0;
+            forward.Normalize();
+            right.Normalize();
+
+            Vector3 direction = (actions.ContinuousActions[0] * right + actions.ContinuousActions[1] * forward).normalized;
+            if (direction.magnitude > 0.1f)
+            {
+                transform.rotation = Quaternion.LookRotation(-direction);
+            }
+        }
+
+        // Calculate distance to the goal
+        float distance = Vector3.Distance(transform.position, targetTransform.position);
+        // Add reward for getting closer to the goal
+        AddReward(0.1f * (1f / distance));
+
     }
 
     public override void Heuristic(in ActionBuffers actionsOut)

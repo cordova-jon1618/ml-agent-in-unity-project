@@ -235,7 +235,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &205572433
 Transform:
   m_ObjectHideFlags: 0
@@ -353,6 +353,7 @@ GameObject:
   - component: {fileID: 245915327}
   - component: {fileID: 245915329}
   - component: {fileID: 245915330}
+  - component: {fileID: 245915331}
   m_Layer: 6
   m_Name: MyCube
   m_TagString: Untagged
@@ -548,6 +549,26 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &245915331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 245915319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 282f342c2ab144bf38be65d4d0c4e07d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Camera: {fileID: 724842143}
+  m_SensorName: CameraSensor
+  m_Width: 20
+  m_Height: 20
+  m_Grayscale: 1
+  m_ObservationType: 0
+  m_ObservationStacks: 1
+  m_Compression: 1
 --- !u!1 &264284361
 GameObject:
   m_ObjectHideFlags: 0
@@ -1120,7 +1141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &425948303
 Transform:
   m_ObjectHideFlags: 0
@@ -1529,7 +1550,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 724842140}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -3938,7 +3959,7 @@ MonoBehaviour:
     hasUpgradedBrainParametersWithActionSpec: 1
   m_Model: {fileID: 0}
   m_InferenceDevice: 0
-  m_BehaviorType: 1
+  m_BehaviorType: 0
   m_BehaviorName: MoveToGoal
   TeamId: 0
   m_UseChildSensors: 1
