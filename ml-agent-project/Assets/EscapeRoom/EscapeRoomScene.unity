@@ -1253,7 +1253,7 @@ GameObject:
   - component: {fileID: 516004422}
   - component: {fileID: 516004421}
   m_Layer: 8
-  m_Name: Agent_Camera2
+  m_Name: Agent_Camera_Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1514,7 +1514,7 @@ GameObject:
   - component: {fileID: 724842143}
   - component: {fileID: 724842142}
   m_Layer: 6
-  m_Name: Agent_Camera3
+  m_Name: Agent_Camera_Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1550,10 +1550,10 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 724842140}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1574,10 +1574,10 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 512
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 3
+  m_TargetDisplay: 1
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
@@ -2295,7 +2295,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1108241607
 Transform:
   m_ObjectHideFlags: 0
@@ -2915,7 +2915,7 @@ GameObject:
   - component: {fileID: 1407056873}
   - component: {fileID: 1407056872}
   m_Layer: 7
-  m_Name: Agent_Camera1
+  m_Name: Agent_Camera_Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2978,7 +2978,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 1
+  m_TargetDisplay: 3
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
@@ -3491,9 +3491,9 @@ GameObject:
   - component: {fileID: 1854108078}
   - component: {fileID: 1854108081}
   - component: {fileID: 1854108082}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Door
-  m_TagString: lock
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
