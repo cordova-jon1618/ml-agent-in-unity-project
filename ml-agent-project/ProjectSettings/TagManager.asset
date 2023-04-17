@@ -9,6 +9,8 @@ TagManager:
   - lock
   - Score_Logic
   - score_logic
+  - Goal_Tag
+  - Obstacle_Tag
   layers:
   - Default
   - TransparentFX
@@ -20,7 +22,7 @@ TagManager:
   - Sphere
   - Capsule
   - VisionCamera
-  - 
+  - Obstacles
   - 
   - 
   - 

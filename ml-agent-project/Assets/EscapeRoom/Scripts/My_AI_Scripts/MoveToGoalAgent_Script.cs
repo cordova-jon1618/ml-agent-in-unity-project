@@ -36,7 +36,7 @@ public class MoveToGoalAgent_Script : Agent
         float moveX = actions.ContinuousActions[0] * 5;
         float moveZ = actions.ContinuousActions[1] * 5;
 
-        float moveSpeed = 5f;
+        float moveSpeed = 3f;
         transform.localPosition += new Vector3(moveX, 0, moveZ) * Time.deltaTime * moveSpeed;
 
         // Orientation for directional based on Camera viewpoint
@@ -59,7 +59,7 @@ public class MoveToGoalAgent_Script : Agent
         // Calculate distance to the goal
         float distance = Vector3.Distance(transform.position, targetTransform.position);
         // Add reward for getting closer to the goal
-        AddReward(0.1f * (1f / distance));
+        AddReward(0.15f * (1f / distance));
 
     }
 
@@ -97,7 +97,7 @@ public class MoveToGoalAgent_Script : Agent
         if (other.TryGetComponent<Goal>(out Goal goal))
         {
             Debug.Log("Reward Win!");
-            SetReward(+1f);
+            SetReward(+10f);
             floorMeshRender.material = winMaterial;
             EndEpisode();
         }
