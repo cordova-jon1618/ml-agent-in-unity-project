@@ -4,7 +4,5 @@ COMP 565: Advanced Computer Graphics
 
 Team Members:
 
-Jonathan Cordova, 
-Vasantha Kumari Borra,  
-Raj Kumar Lakoji
+Jonathan Cordova, Vasantha Kumari Borra, Raj Kumar Lakoji
 
