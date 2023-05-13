@@ -8,8 +8,6 @@ using Unity.MLAgents.Sensors;
 public class MoveToGoalAgent_Script : Agent
 {
 
-
-
     [SerializeField] private Transform targetTransform;
     [SerializeField] private Material winMaterial;
     [SerializeField] private Material loseMaterial;
