@@ -2,22 +2,22 @@
     "MoveToGoal": {
         "checkpoints": [
             {
-                "steps": 3215,
-                "file_path": "results\\training002\\MoveToGoal\\MoveToGoal-3215.onnx",
+                "steps": 3360,
+                "file_path": "results\\training002\\MoveToGoal\\MoveToGoal-3360.onnx",
                 "reward": null,
-                "creation_time": 1684036321.507929,
+                "creation_time": 1684093924.1007454,
                 "auxillary_file_paths": [
-                    "results\\training002\\MoveToGoal\\MoveToGoal-3215.pt"
+                    "results\\training002\\MoveToGoal\\MoveToGoal-3360.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 3215,
+            "steps": 3360,
             "file_path": "results\\training002\\MoveToGoal.onnx",
             "reward": null,
-            "creation_time": 1684036321.507929,
+            "creation_time": 1684093924.1007454,
             "auxillary_file_paths": [
-                "results\\training002\\MoveToGoal\\MoveToGoal-3215.pt"
+                "results\\training002\\MoveToGoal\\MoveToGoal-3360.pt"
             ]
         }
     },

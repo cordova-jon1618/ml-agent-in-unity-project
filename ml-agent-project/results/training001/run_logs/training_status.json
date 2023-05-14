@@ -2,31 +2,22 @@
     "MoveToGoal": {
         "checkpoints": [
             {
-                "steps": 5418,
-                "file_path": "results\\training001\\MoveToGoal\\MoveToGoal-5418.onnx",
-                "reward": null,
-                "creation_time": 1684035859.9194398,
+                "steps": 4224,
+                "file_path": "results\\training001\\MoveToGoal\\MoveToGoal-4224.onnx",
+                "reward": 16.240886688232422,
+                "creation_time": 1684095048.7826626,
                 "auxillary_file_paths": [
-                    "results\\training001\\MoveToGoal\\MoveToGoal-5418.pt"
-                ]
-            },
-            {
-                "steps": 7948,
-                "file_path": "results\\training001\\MoveToGoal\\MoveToGoal-7948.onnx",
-                "reward": null,
-                "creation_time": 1684036146.0845873,
-                "auxillary_file_paths": [
-                    "results\\training001\\MoveToGoal\\MoveToGoal-7948.pt"
+                    "results\\training001\\MoveToGoal\\MoveToGoal-4224.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 7948,
+            "steps": 4224,
             "file_path": "results\\training001\\MoveToGoal.onnx",
-            "reward": null,
-            "creation_time": 1684036146.0845873,
+            "reward": 16.240886688232422,
+            "creation_time": 1684095048.7826626,
             "auxillary_file_paths": [
-                "results\\training001\\MoveToGoal\\MoveToGoal-7948.pt"
+                "results\\training001\\MoveToGoal\\MoveToGoal-4224.pt"
             ]
         }
     },

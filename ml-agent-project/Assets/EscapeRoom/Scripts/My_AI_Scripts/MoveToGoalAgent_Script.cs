@@ -57,7 +57,7 @@ public class MoveToGoalAgent_Script : Agent
         // Calculate distance to the goal
         float distance = Vector3.Distance(transform.position, targetTransform.position);
         // Add reward for getting closer to the goal
-        float increment_rewards = 0.15f * (1f / distance);
+        float increment_rewards = 0.10f * (1f / distance);
         Debug.Log(increment_rewards);
         AddReward(increment_rewards);
 
@@ -97,7 +97,7 @@ public class MoveToGoalAgent_Script : Agent
         if (other.TryGetComponent<Goal>(out Goal goal))
         {
             Debug.Log("Reward Win!");
-            SetReward(+10f);
+            SetReward(+15f);
             floorMeshRender.material = winMaterial;
             EndEpisode();
         }
