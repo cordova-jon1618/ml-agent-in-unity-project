@@ -2276,7 +2276,7 @@ MonoBehaviour:
   m_DetectableTags:
   - Obstacle_Tag
   m_RaysPerDirection: 9
-  m_MaxRayDegrees: 54
+  m_MaxRayDegrees: 35
   m_SphereCastRadius: 0.5
   m_RayLength: 10
   m_RayLayerMask:
@@ -5183,7 +5183,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1630646340}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.796682, y: -11.476734, z: 24.506924}
+  m_LocalPosition: {x: -12.796682, y: -11.476734, z: 23.75}
   m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6037,7 +6037,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.0207882, y: 2, z: 3.14}
+  m_Size: {x: 2.0207882, y: 2, z: 1.1}
   m_Center: {x: -0.010394215, y: 0, z: 0.008564472}
 --- !u!23 &1854108079
 MeshRenderer:

@@ -57,7 +57,9 @@ public class MoveToGoalAgent_Script : Agent
         // Calculate distance to the goal
         float distance = Vector3.Distance(transform.position, targetTransform.position);
         // Add reward for getting closer to the goal
-        AddReward(0.15f * (1f / distance));
+        float increment_rewards = 0.15f * (1f / distance);
+        Debug.Log(increment_rewards);
+        AddReward(increment_rewards);
 
     }
 
