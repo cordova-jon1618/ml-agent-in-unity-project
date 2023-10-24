@@ -155,11 +155,11 @@ Step 4: Installing PyTorch and the ML Agent into Anaconda
 
 ●	After launching the prompt in the ML Agent environment, install the following: 
 
-		○	Windows users will need to install PyTorch
+	○	Windows users will need to install PyTorch
 
 		○	pip3 install torch~=1.7.0 -f https://download.pytorch.org/whl/torch_stable.html
 
-		○	Run the following command to install the correct version of mlagents (v0.26.0 in my case):
+	○	Run the following command to install the correct version of mlagents (v0.26.0 in my case):
 
 		○	pip3 install mlagents==0.29.0
 
