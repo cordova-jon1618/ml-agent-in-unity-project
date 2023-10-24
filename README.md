@@ -24,6 +24,7 @@ Overall, our aim is to gain a better understanding of how ML agents can be train
 MEET OUR TEAM
 --------------
 VASANTHA KUMARI BORRA
+----------------------
 
 ![image](https://github.com/cordova-jon1618/ml-agent-in-unity-project/assets/29684905/cfcfca2a-8ef4-4154-9f1b-184c2a414478)
 
@@ -32,6 +33,7 @@ Computer Science graduate student at California State University, Northridge (CS
 
 
 JONATHAN CORDOVA
+----------------------
 
 ![image](https://github.com/cordova-jon1618/ml-agent-in-unity-project/assets/29684905/f0c79f6e-5980-4930-bb32-8f0747e8db57)
 
@@ -40,6 +42,7 @@ I am a Computer Science graduate student at California State University, Northri
 
 
 RAJ KUMAR LAKOJI
+----------------------
 
 ![image](https://github.com/cordova-jon1618/ml-agent-in-unity-project/assets/29684905/d79818f8-2fbc-4793-be3c-c2f0b27c4838)
 
