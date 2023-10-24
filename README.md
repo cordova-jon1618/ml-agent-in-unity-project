@@ -1,8 +1,10 @@
 # ml-agent-in-unity-project
-ML Agent In Unity Project
+Machine Learning (ML Agents) – Using an ML Agent to Navigate an Obstacle Course in Unity 
 COMP 565: Advanced Computer Graphics
 
+
 Meet The Team:
+--------------
 
 Jonathan Cordova @cordova-jon1618 - https://github.com/cordova-jon1618 
 
