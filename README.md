@@ -134,7 +134,7 @@ Step 3: Creating a Python Environment with Anaconda
 
 ●	Run the following command
 
-	○	conda create -n ml-agents-r17 python=3.7
+		○	conda create -n ml-agents-r17 python=3.7
 
 ●	This will create a new Python 3.7 environment called “ml-agents-r17” for release 17.
 
