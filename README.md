@@ -1,5 +1,5 @@
-# ml-agent-in-unity-project
-Machine Learning (ML Agents) – Using an ML Agent to Navigate an Obstacle Course in Unity 
+# Machine Learning (ML Agents) – Using an ML Agent to Navigate an Obstacle Course in Unity 
+ML Agent In Unity Project
 COMP 565: Advanced Computer Graphics
 
 
