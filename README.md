@@ -26,19 +26,26 @@ MEET OUR TEAM
 VASANTHA KUMARI BORRA
 
 ![image](https://github.com/cordova-jon1618/ml-agent-in-unity-project/assets/29684905/cfcfca2a-8ef4-4154-9f1b-184c2a414478)
+
 Computer Science graduate student at California State University, Northridge (CSUN), my focus lies in Machine Learning.
+
 
 
 JONATHAN CORDOVA
 
 ![image](https://github.com/cordova-jon1618/ml-agent-in-unity-project/assets/29684905/f0c79f6e-5980-4930-bb32-8f0747e8db57)
+
 I am a Computer Science graduate student at California State University, Northridge (CSUN), I am deeply invested in exploring the transformative potential of Artificial Intelligence and Machine Learning. With a plan to graduate in Spring 2024, I seek to expand my knowledge in my area of interest.
+
 
 
 RAJ KUMAR LAKOJI
 
 ![image](https://github.com/cordova-jon1618/ml-agent-in-unity-project/assets/29684905/d79818f8-2fbc-4793-be3c-c2f0b27c4838)
+
 Computer Science graduate student at California State University, Northridge (CSUN), my area of interest is data mining, deep learning, gaming, NLP and robotics. I am also enthusiastic to learn new technologies.
+
+
 
 ABOUT OUR REPORT
 This technical report provides an overview of the comprehensive document detailing our Machine Learning (ML) Agent project in Unity. The report begins with an introduction that outlines the purpose and scope of the project, followed by a section introducing our team members and their roles.
