@@ -134,7 +134,7 @@ Step 3: Creating a Python Environment with Anaconda
 
 ●	Run the following command
 
-○	conda create -n ml-agents-r17 python=3.7
+	○	conda create -n ml-agents-r17 python=3.7
 
 ●	This will create a new Python 3.7 environment called “ml-agents-r17” for release 17.
 
@@ -155,13 +155,13 @@ Step 4: Installing PyTorch and the ML Agent into Anaconda
 
 ●	After launching the prompt in the ML Agent environment, install the following: 
 
-○	Windows users will need to install PyTorch
+	○	Windows users will need to install PyTorch
 
-○	pip3 install torch~=1.7.0 -f https://download.pytorch.org/whl/torch_stable.html
+	○	pip3 install torch~=1.7.0 -f https://download.pytorch.org/whl/torch_stable.html
 
-○	Run the following command to install the correct version of mlagents (v0.26.0 in my case):
+	○	Run the following command to install the correct version of mlagents (v0.26.0 in my case):
 
-○	pip3 install mlagents==0.29.0
+	○	pip3 install mlagents==0.29.0
 
 ![image](https://github.com/cordova-jon1618/ml-agent-in-unity-project/assets/29684905/a18b5618-a7e6-483d-a99c-76de7d1b8e89)
 
@@ -178,18 +178,19 @@ Step 5: To Start the Training Phase
 
 ●	Use either of the below to start training. Give the training file a name that you would like to call your agent’s “brain”.
 
-○	mlagents-learn --run-id=<filename>
+	○	mlagents-learn --run-id=<filename>
 
 ●	Use this command that includes the best parameters for training provided by Unity ML Agent Documentation to make training the most efficient and effective.
 
-○	mlagents-learn config/moveToGoal.yaml --run-id=<filename>
+	○	mlagents-learn config/moveToGoal.yaml --run-id=<filename>
 
 ![image](https://github.com/cordova-jon1618/ml-agent-in-unity-project/assets/29684905/5482649e-17d1-4ece-bd12-63cb93d6bf02)
 
 ●	Once you see the “[INFO] Listening on port 5004” notification in the console window. Please press play in the Unity Project to begin the training. NOTE: If you wait too long to press ‘Play’ in Unity, it might time out and you might have to run the command again.
 
-●	If you would like to continue training the ML Agent later, you can use the “--resume” command to continue the training into the same brain file. 
-○	mlagents-learn --run-id=<filename> --resume
+●	If you would like to continue training the ML Agent later, you can use the “--resume” command to continue the training into the same brain file.
+
+	○	mlagents-learn --run-id=<filename> --resume
 
 ●	Before pressing play, verify that the Behavior Type for the ML Agent is set to ‘Default’.
 
