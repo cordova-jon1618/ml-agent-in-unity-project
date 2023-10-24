@@ -23,14 +23,6 @@ Overall, our aim is to gain a better understanding of how ML agents can be train
 
 MEET OUR TEAM
 --------------
-VASANTHA KUMARI BORRA
-----------------------
-
-![image](https://github.com/cordova-jon1618/ml-agent-in-unity-project/assets/29684905/cfcfca2a-8ef4-4154-9f1b-184c2a414478)
-
-Computer Science graduate student at California State University, Northridge (CSUN), my focus lies in Machine Learning.
-
-
 
 JONATHAN CORDOVA
 ----------------------
@@ -38,6 +30,15 @@ JONATHAN CORDOVA
 ![image](https://github.com/cordova-jon1618/ml-agent-in-unity-project/assets/29684905/f0c79f6e-5980-4930-bb32-8f0747e8db57)
 
 I am a Computer Science graduate student at California State University, Northridge (CSUN), I am deeply invested in exploring the transformative potential of Artificial Intelligence and Machine Learning. With a plan to graduate in Spring 2024, I seek to expand my knowledge in my area of interest.
+
+
+
+VASANTHA KUMARI BORRA
+----------------------
+
+![image](https://github.com/cordova-jon1618/ml-agent-in-unity-project/assets/29684905/cfcfca2a-8ef4-4154-9f1b-184c2a414478)
+
+Computer Science graduate student at California State University, Northridge (CSUN), my focus lies in Machine Learning.
 
 
 
